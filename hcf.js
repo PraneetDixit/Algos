@@ -3,7 +3,7 @@
 function hcf(n1, n2){
 	let a = Math.max(n1, n2);
 	let b = Math.min(n1, n2);
-	let r = a%b;
+	let r = a;
 	
 	while(r){
 		a = b;
